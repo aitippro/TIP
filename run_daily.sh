@@ -17,9 +17,14 @@ exec 2>&1
 
 echo "=== TIP 日报开始 $(date) ==="
 
+# 确保 SSH agent 可用
+export GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=accept-new"
+eval "$(ssh-agent -s)" 2>/dev/null
+ssh-add ~/.ssh/id_ed25519 2>/dev/null || ssh-add ~/.ssh/id_rsa 2>/dev/null || true
+
 cd "$SCRIPT_DIR"
 git pull origin main --rebase 2>/dev/null || true
 
-claude -p --max-budget-usd 2 --allowedTools "Bash,Read,Write,Edit,WebSearch,WebFetch,Glob,Grep" "$(cat $SCRIPT_DIR/prompts/daily.md)"
+cat "$SCRIPT_DIR/prompts/daily.md" | claude --print --max-budget-usd 5 --allowedTools "Bash,Read,Write,Edit,WebSearch,WebFetch,Glob,Grep"
 
 echo "=== TIP 日报结束 $(date) ==="
