@@ -6,36 +6,35 @@
 
 ## 最新日报：2026-05-28
 
-**Claude Code Skills 生态一周内涌现 5 万星项目，AI 从"写代码"进化到"做设计/管销售/拍视频"——普通人真正的窗口是把垂直行业的"AI 上岗培训包"做成产品。** 关键词：**Skills生态爆发、AI Agent工具链、AI替代岗位、短视频平民化、AI Memory战争。**
+**Claude Code Skills 生态 5 万星爆发，AI 应用商店的"插件时刻"正在发生——普通人用一份 CLAUDE.md 文件就能发布产品，Token 成本断崖下降，AI 求职赛道集中爆发。**
 
 ### 今日 5 大信号
 
-1. **Claude Code Skills 生态大爆发** — open-design 53,923⭐ + huashu-design 15,381⭐ + hallmark 2,119⭐，"AI 审美治理"成为独立赛道
-2. **AI Agent 工具链成熟化** — obscura 13,811⭐（Agent浏览器）、CubeSandbox 5,979⭐（Agent沙箱）、Agent-Memory 4,319⭐（Agent记忆），基础设施就绪
-3. **"AI 替代完整岗位"信号炸裂** — career-ops 47,498⭐（AI求职系统）、ai-sales-team-claude 645⭐（AI销售团队）、agent-kit 697⭐（AI邮件助手）
-4. **AI 视频创作平民化** — MoneyPrinterTurbo 登顶 Python 日榜，Seedance 2.0 技能集爆发（532⭐+），一人+AI=视频工作室
-5. **AI Memory 成兵家必争之地** — MemPalace 52,945⭐登顶 MCP 赛道，Memory+MCP=AI 应用的操作系统层
+1. **Skills 生态爆发：Claude Code 成新应用平台** — caveman 65,630⭐ + graphify 55,035⭐ + career-ops 47,501⭐ + MemPalace 52,948⭐，全部以 Skills 形态发布
+2. **AI 自主研究元年** — karpathy/autoresearch 83,753⭐，AI agent 单 GPU 自动训练研究，自主设计实验迭代优化
+3. **Token 成本断崖下降** — caveman 减少 65% token，smallcode 用 4B 模型达 87% 基准，小模型平权时代
+4. **AI 求职赛道集中爆发** — career-ops 47.5k⭐ + LiftmyCV + 47jobs + shushu-internship-tool，AI 重塑求职全链路
+5. **"去 AI 味"成新需求** — no_ai_slop_writing_rules 241⭐（48h）+ humanize-text 830⭐，真实表达回归
 
 ### 今日痛点速览
 
 | 维度 | 核心痛点 |
 |------|----------|
-| 创业侧 | "AI Slop"信任危机（内容被识破→转化暴跌）、Agent 基础设施碎片化（5+组件难集成）、技能门槛不减反增、开源变现路径单一（转化率<2%）、获客成本与信任度死结 |
-| 生活侧 | 独居老人安全（SilverAid 开源方案）、家庭健康管理混乱（CareLink）、AI 内容质量焦虑（stop-slop/hallmark）、个人学习效率低、求职低效（career-ops 47K星佐证） |
+| 创业侧 | 平台依赖风险（Wrapper 困境）、分发是最大瓶颈（5年仍在挣扎）、SaaS 订阅成本侵蚀利润（$200-500+/月）、AI 产品同质化严重、技术门槛消失后"做什么/卖给谁"成唯一问题 |
+| 生活侧 | 求职低效简历无回音（career-ops 47.5k⭐佐证）、ADHD 专注力管理、医疗报告看不懂、AI 写作千篇一律缺乏人格、宠物健康监测缺工具、会议纪要耗时 |
 
 ### 痛点 × 机会交叉
 
-- **AI 审美/质量治理 × 内容创业** ← stop-slop/hallmark/taste-skill 三连发，"AI 内容质检 SaaS"面向自媒体/MCN/跨境电商，月费 ¥99 起
-- **家庭健康 × AI Agent 自动化** ← SilverAid+CareLink 早期开源未商业化，"家庭 AI 健康管家"面向三明治一代，年费 ¥199
-- **求职 AI × 垂直行业定制** ← career-ops 47K 星爆火，做垂直版（程序猿/应届生/海外求职），客单价 ¥299-999
+- **求职 × Skills 生态** ← 为特定行业开发求职 Skill 包，面向 2026 届 1200 万毕业生，月订阅制
+- **AI 去味 × 内容营销** ← 企业新媒体 AI 内容被限流/用户疲劳，提供"反检测+人格化改写"服务
 
 ### 今日机会卡片
 
 | 机会 | 赛道 | 可行性 | 窗口期 |
 |------|------|--------|--------|
-| AI 内容质检 SaaS（去AI味+品牌风格注入） | AI治理/内容质量 | ⭐⭐⭐⭐⭐ | 3-6个月 |
-| 垂直行业"AI上岗培训包"（房产中介版） | AI Agent垂直应用 | ⭐⭐⭐⭐ | 6-12个月 |
-| AI 短视频代运营（本地生活版） | AI视频/本地生活 | ⭐⭐⭐⭐⭐ | 3-6个月 |
+| 垂直行业 Claude Code Skill 开发分发 | AI工具/开发者生态 | ⭐⭐⭐⭐⭐ | 6-12个月 |
+| AI 求职一站式服务（面向2026届毕业生） | 教育科技/人力资源 | ⭐⭐⭐⭐ | 3-9个月 |
+| "去 AI 味"内容改写服务 | 内容营销/自媒体 | ⭐⭐⭐⭐ | 6-18个月 |
 
 [查看完整报告 →](reports/2026/05/2026-05-28.md)
 
