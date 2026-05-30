@@ -4,40 +4,40 @@
 
 ---
 
-## 最新日报：2026-05-30
+## 最新日报：2026-05-31
 
-**Anthropic昨夜发布Claude Opus 4.8（1673分+1302评论引爆HN），token成本降61%、Agent能力升84%——但同期HN在激烈讨论"AI正在让程序员被deskill"（167分）和"只有5年+经验的工程师才用得好AI"（46分）。模型更强了，能用好模型的人更少了，这个剪刀差就是机会。**
+**"MCP is dead?"以325分引爆HN——开发者实测MCP吃掉Claude 10.5%上下文窗口、比REST慢3倍；同日Anthropic以$47B年收入和近$1T估值超越OpenAI。协议标准的"建设期"正在转进"检验期"——这不是坏事，是基础设施成熟的必经阶段。**
 
 ### 今日 5 大信号
 
-1. **Claude Opus 4.8深夜突袭发布** — 1673分HN热帖，同价升级但token成本降61%，新增effort control/dynamic workflows/fast mode三大功能，Agent任务得分84%
-2. **"AI正在制造前端失落十年2.0"** — 167分HN帖警告AI coding agent正在像JS框架deskill前端一样deskill全栈编程，开发者技能贬值进入加速期
-3. **普通GPU跑3000 tok/s推理速度** — Kog AI证明标准GPU可达专用推理芯片速度，瓶颈在软件栈不在硬件，Agent推理成本即将断崖下降
-4. **AI时代专业能力剪刀差** — Brian Lee论证用AI coding agent写出好代码需要5年+手动编程经验，Junior最危险、Senior最稀缺
-5. **"LLM记忆层"在PH同日涌现为独立品类** — GPS、Hyper、TrackNotch三款产品同日扎堆，Agent"长期记忆"从工程补丁变成产品类别
+1. **"MCP is dead?"325分HN** — Quandri实测4个MCP Server消耗21K tokens（10.5%窗口），Jira MCP比REST慢9.4倍。Claude Code推出Tool Search延迟加载补救（减少85%+上下文）
+2. **Mistral AI Now Summit：harness才是关键** — 421分HN帖，Mistral宣布全栈AI（算力+模型+平台），主张"小模型+好harness > 大模型"，BNP Paribas本地部署KYC案例
+3. **Anthropic $47B年收入超越OpenAI** — $65B Series H融资，估值近$1T超越OpenAI的$852B，Claude Code被列为增长引擎
+4. **AI Job Grief：AI失业的心理危机被命名** — 43分HN帖论证AI导致的知识工作者身份失落是一种独特的悲伤，不同于恐惧/焦虑/倦怠
+5. **Shift免费家政换机器人训练数据** — 165分HN帖，233评论争议，"用隐私支付清洁费"模式正式上线，可能催生"数据换服务"经济
 
 ### 今日痛点速览
 
 | 维度 | 核心痛点 |
 |------|----------|
-| 创业侧 | "加量不加价"模型竞赛让应用层护城河收窄、AI coding agent量产"不懂代码的程序员"、Agent基础设施碎片化（记忆层3种方案） |
-| 生活侧 | AI写的代码不知怎么审查、换AI工具要重新配置上下文、Agent工作流太慢等不及 |
+| 创业侧 | MCP协议成熟度不足让Agent创业者面临选边站风险、模型层价值捕获远超应用层（Anthropic $1T估值2天跳3倍）、AI训练数据伦理灰色地带扩大 |
+| 生活侧 | MCP Agent越用越慢（21K tokens工具定义开销）、AI失业后的"身份崩塌"无人关怀、欧洲企业数据不敢上美国云 |
 
 ### 痛点 × 机会交叉
 
-- **AI时代"反deskilling"教育平台** ← "Frontend Lost Decade" + "Expertise in Age of AI"两篇文章同日论证同一个空白市场
-- **Agent入职记忆包SaaS** ← GPS/Hyper/TrackNotch同日扎堆PH，但缺少"企业wiki一键打包成Agent记忆"的垂直方案
-- **Agent推理性能基准测试平台** ← Kog AI揭露信息差：现有benchmark测吞吐量，Agent需要测延迟
+- **MCP可靠性监控SaaS（"Datadog for MCP"）** ← "MCP is dead?" 325分帖揭示的三大生产问题 + PH已有基础ping方案但缺深度监控
+- **"AI职业转型心理辅导"平台** ← "AI Job Grief" 43分帖 + Reddit 36K赞裁员帖证明大规模未被满足的心理需求
+- **"Agent Harness"中间件** ← Mistral Summit "harness is everything"主张 + 昨天GPS/Hyper记忆层产品方向一致但缺企业级"模型无关harness"方案
 
 ### 今日机会卡片
 
 | 机会 | 赛道 | 可行性 | 窗口期 |
 |------|------|--------|--------|
-| AI时代"反deskilling"深度教育平台 | AI教育培训/职业发展 | ⭐⭐⭐⭐ | 6-12个月 |
-| Agent入职记忆包SaaS | Agent基础设施/企业SaaS | ⭐⭐⭐⭐ | 2-4个月 |
-| Agent推理性能基准测试平台 | AI基础设施/开发者工具 | ⭐⭐⭐ | 3-6个月 |
+| MCP可靠性监控SaaS（Datadog for MCP） | Agent基础设施/开发者工具 | ⭐⭐⭐⭐ | 2-4个月 |
+| "AI职业转型心理辅导"平台 | 心理健康/AI人文关怀 | ⭐⭐⭐ | 6-12个月 |
+| "Agent Harness"中间件 | Agent基础设施/LLMOps | ⭐⭐⭐⭐ | 3-6个月 |
 
-[查看完整报告 →](reports/2026/05/2026-05-30.md)
+[查看完整报告 →](reports/2026/05/2026-05-31.md)
 
 ---
 
